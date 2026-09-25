@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Data and outputs (Do not commit large datasets)
+dataset/train/*.tsv
+dataset/test/*.tsv
+data/
+output/*.tsv
+scratch/
+*.parquet
+*.csv
+*.zip
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Environment
+.env
